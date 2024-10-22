@@ -112,6 +112,6 @@ Feel free to fork this project, make improvements, and submit pull requests. Con
 
 ## Screenshots
 
-### Time Tracking Example
+### Time Tracking Example!
 
-![Time Tracking Screenshot](./assets/i1.jpg)
+![Time Tracking Screenshot](https://github.com/user-attachments/assets/29363703-1ccb-419b-a1ef-2fed30ad7744)
