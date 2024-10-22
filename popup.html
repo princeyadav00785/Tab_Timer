@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Usage Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+        width: 300px;  
+      }
+
+      h1 {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+        font-size: 20px;
+      }
+
+      #tabUsageContainer {
+        padding: 15px;
+      }
+
+      .tab-data {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .tab-data:hover {
+        transform: scale(1.03);
+      }
+
+      .tab-icon {
+        width: 24px;   
+        height: 24px;  
+        margin-right: 10px;
+        border-radius: 4px;  
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);  
+      }
+
+      .tab-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .tab-time {
+        font-size: 14px;
+        color: #666;
+        margin-top: 3px;
+      }
+
+      .tab-content {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tab Usage Tracker</h1>
+    <div id="tabUsageContainer">
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

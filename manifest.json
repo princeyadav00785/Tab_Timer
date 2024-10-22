@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Tab_Timer",
+    "version": "1.0",
+    "description": "Track active time spent on different Chrome tabs and websites.",
+    "permissions": ["tabs", "storage", "webNavigation"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
